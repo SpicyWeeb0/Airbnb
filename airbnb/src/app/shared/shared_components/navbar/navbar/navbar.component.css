@@ -1,0 +1,123 @@
+.logo img{
+    width: 115px;
+}
+.userNavigator button{
+    border-radius: 10px;
+    border-color: grey;
+    display: flex;
+}
+.userNavigator button ul{
+ list-style: none;
+ padding-left: 10px;
+ margin: 0px;
+
+}
+.logout{
+    padding-right: 30px;
+}
+.logout button{
+    float: right;
+}
+.bars{
+    padding-left:0px!important;
+}
+.userNavigator button fa-icon {
+    font-size: 18px;
+    color:black;
+    /* float: right; */
+    /* position: relative;
+    bottom:5px;
+    left:10px; */
+}
+.bars li fa-icon{
+    font-size:15px
+}
+#dropdownBasic1::after {
+    content: none;
+}
+.btn:hover{
+    background: none;
+}
+.btn:focus{
+    background:none;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 25% 50% 15% 10%;
+    margin:auto;
+  
+}
+.logo{
+    grid-column: 1;
+}
+
+.userNavigator{
+    grid-column: 4;
+  
+}
+.userNavigator .row{
+    float:left;
+}
+
+
+.modal-header{
+    justify-content: center;
+    padding: 0;
+}
+.continue{
+    background: radial-gradient(circle at center center, rgb(255, 56, 92) 0%, rgb(230, 30, 77) 27.5%, rgb(227, 28, 95) 40%, rgb(215, 4, 102) 57.5%, rgb(189, 30, 89) 75%, rgb(189, 30, 89) 100%) !important;
+    color: white;
+    width: 90%;
+    margin: auto;
+    border: none;
+    background-size: 200% 200% !important;
+    height: 40px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.btn-close{
+    margin: 5px;
+}
+.Auth{
+    width: 90%;
+    margin: auto;
+    border: none;
+    background-size: 200% 200% !important;
+    height: 40px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.faFacebook{
+    float: left;
+    position: relative;
+    left: 15px;
+    font-size: 19px;
+}
+.faGoogle{
+    float: left;
+    position: relative;
+    left: 15px;
+    font-size: 19px;
+    color: radial-gradient(circle at center center, rgb(255, 56, 92) 0%, rgb(230, 30, 77) 27.5%, rgb(227, 28, 95) 40%, rgb(215, 4, 102) 57.5%, rgb(189, 30, 89) 75%, rgb(189, 30, 89) 100%) !important;
+
+}
+.MyClass{
+    display:block;
+}
+.modal-footer {
+     display: block;
+}
+button{
+    display: block;
+}
+.userEmail ul{
+    float: right;
+   position: relative;
+   top:15px;
+    list-style: none;
+    font-size:16px;
+}
+.navbar{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,38 @@
+
+    .image{
+        width: -webkit-fill-available;
+        min-height: 250px;
+        height: 260px;
+        border-radius: 20px;
+        object-fit: cover;
+        vertical-align: bottom;
+    }
+    .card{
+        border: none;
+    }
+    .card-name, .card-price{
+        font-weight: 500;
+    }
+    .card-addDate, .card-city{
+        font-weight: 100;
+    }
+    h4, h5{
+        margin-bottom: 0px;
+    }
+
+    /* hotel_inner */
+
+    .faStar{
+        font-size: 13px;
+        position: relative;
+        top: 1px;
+    }
+    .hotelShortDescription{
+        display: flex;
+    }
+    .hotelShortDescription h4{
+        padding-left: 10px;
+    }
+    .hotelShortDescription .reviewsNum, .streetAdd{
+        font-weight: 500;
+    }
